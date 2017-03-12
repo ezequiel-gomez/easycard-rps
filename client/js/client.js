@@ -120,9 +120,10 @@ function GameOver (result) {
 socket.on('disableoptions', disableOptions);
 socket.on('enableoptions', enableOptions);
 
-
+//Función que detecta si alguna de las opciones fue elegida
 function optionsClickHandler (e) {
   if (e.target.id) {
+    //Se envía la opción elegida al evento personalizado
     socket.emit('optionselected', e.target.id);
   }
 }
