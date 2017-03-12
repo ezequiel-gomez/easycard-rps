@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #dddddd;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.cardgame_container {
+    text-align: center;
+    font-family: Arial;
+    padding: 10px;
+}
+.game_container {
+}
+.inputs_container {;
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+.points_container {
+    text-align: center;
+    width: 80%;
+    margin: 25px auto;
+}
+#chat-input {
+    width: 50%;
+    height: 23px;
+    padding-left: 8px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+#betting-input {
+    width: 25%;
+    height: 23px;
+    padding-left: 8px;
+    margin-right: 10px;
+}
+.enviar {
+    width: 25%;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    line-height: 2px;
+    font-family: Arial;
+}
+.player,
+.opponent,
+.max_points_container {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+}
+.player_name,
+.opponent_name,
+.max_points_label {
+  display: block;
+}
+#chat-text {
+  overflow: auto;
+  max-height: 400px;
+}
+#piedra {
+    background: url("/images/piedra.png") no-repeat center;
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-size: 150px;
+}
+#papel {
+    background: url("/images/papel.png") no-repeat center;
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-size: 150px;
+}
+#tijera {
+    background: url("/images/tijera.png") no-repeat center;
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-size: 150px;
+}

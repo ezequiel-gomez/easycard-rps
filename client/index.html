@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RPS Game</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="cardgame_container">
+    <div class="game_container">
+      <div class="game_options">
+        <button id="piedra"></button>
+        <button id="papel"></button>
+        <button id="tijera"></button>
+      </div>
+    </div>
+    <div class="points_container">
+      <div class="player">
+        <span class="player_name"></span>
+        <span class="player_points"></span>
+      </div>
+      <div class="opponent">
+        <span class="opponent_name"></span>
+        <span class="opponent_points"></span>
+      </div>
+      <div class="max_points_container">
+        <span class="max_points_label"></span>
+        <span class="max_points"></span>
+      </div>
+    </div>
+    <div class="inputs_container">
+      <ul id="chat-text">
+      </ul>
+      <div class="input_controls">
+      </div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/client.js"></script>
+</body>
+</html>
